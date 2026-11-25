@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12128.139 oobstable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchium.LandingPage", "Orchium.LandingPage\Orchium.LandingPage.csproj", "{D63ED9CB-8472-4FD7-A4AC-1F36E13D18AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{92666ECA-77D2-43A1-B07F-BF403113F439}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{ED63242E-2394-4607-A098-62554CF1DCB3}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\azure-static-web-apps.yml = .github\workflows\azure-static-web-apps.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D63ED9CB-8472-4FD7-A4AC-1F36E13D18AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63ED9CB-8472-4FD7-A4AC-1F36E13D18AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63ED9CB-8472-4FD7-A4AC-1F36E13D18AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63ED9CB-8472-4FD7-A4AC-1F36E13D18AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED63242E-2394-4607-A098-62554CF1DCB3} = {92666ECA-77D2-43A1-B07F-BF403113F439}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59B10E0A-3189-47F4-A895-E4A48DD837DA}
+	EndGlobalSection
+EndGlobal
